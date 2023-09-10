@@ -1,0 +1,199 @@
+/* Navbar styles */
+*{
+    padding: 0;
+    margin: 0;
+  }
+  .container {
+    margin-top: 2vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .dollarlogo{
+    width: 1.875rem;
+height: 2.75rem;
+flex-shrink: 0;
+  }
+  .eyelogo{
+    width: 3.99981rem;
+height: 2.25rem;
+  }
+  /* Center-align the navbar list */
+  .navbar-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  /* Style the navbar list items */
+  .navbar-list li {
+    display: inline-flex;
+align-items: center;
+gap: 1.25rem;
+  }
+  
+  .navbar-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.75rem;
+  }
+  
+  
+  .cash {
+    position: relative;
+    left: 16rem;
+    display: flex;
+width: 44.4375rem;
+height: 18.92969rem;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Agrandir;
+font-size: 11.063rem;
+font-style: normal;
+font-weight: 800;
+line-height: 10.375rem;
+letter-spacing: 0.03125rem;
+text-transform: uppercase;
+  }
+  
+  .phone-img {
+    display: flex;
+    position: absolute;
+    top: 6rem;
+    right: 36.4rem;
+    z-index: 1;
+    width: 23.125rem;
+height: 28.31769rem;
+flex-shrink: 0;
+  }
+  
+  .app {
+    position: absolute;
+    z-index: 2;
+    top: 15rem;
+    left: 16rem;
+    display: flex;
+width: 44.4375rem;
+height: 18.92969rem;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Agrandir;
+font-size: 11.063rem;
+font-style: normal;
+font-weight: 800;
+line-height: 10.375rem; 
+letter-spacing: 0.03125rem;
+text-transform: uppercase;
+  }
+  
+  .cube {
+    width: 4.625rem;
+height: 4.57575rem;
+flex-shrink: 0;
+    /* position: relative; */
+    position: fixed;
+    top: 5rem;
+    left: 9rem;
+    
+  }
+  
+  .stairs {
+    position: relative;
+    top: -3rem;
+    right: -16rem;
+width: 12.5rem;
+height: 16.3065rem;
+flex-shrink: 0;
+  }
+  
+  .cubes {
+    position: relative;
+    right: 45rem;
+    bottom: -16rem;
+    width: 11.75rem;
+height: 11.02988rem;
+flex-shrink: 0;
+  }
+  
+  .pillar {
+    position: relative;
+    bottom: -20rem;
+    right: 16rem;
+    width: 17.5rem;
+height: 20.61738rem;
+flex-shrink: 0;
+  }
+  .buttonSection{
+    display: flex;
+    justify-content: space-around;
+    height: 8vh;
+    z-index: 3;
+  }
+  .buttonSectionA{
+    display: flex;
+    background-color: black;
+    border-radius: 1vh;
+    border: 2px solid white;
+  }
+  .Appleclasswritten{
+    color: aliceblue;
+  }
+  .buttonsectionb{
+    display: flex;
+    background-color: black;
+    border-radius: 1vh;
+    border: 2px solid white;
+  }
+  .my-1{
+    margin:1vh;
+  }
+  .lastSection{
+    display: flex;
+    justify-content: space-around;
+  }
+  .written{
+    color: aliceblue;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1vw;
+    width: 30vw;
+  }
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    bottom: -20vh;
+    z-index: 99;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
